@@ -1,7 +1,7 @@
 ##################################################
   group:
     - group_name: "TestGroup2105_01"    
-      vusers: '1'
+      vusers: '1'  
       script_path: "demo2105/test_http_request_wordpress_1"
   scheduler:
      rampup: '45'
