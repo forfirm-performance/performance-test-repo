@@ -1,4 +1,7 @@
 ##################################################
+ percentile: '90'
+ transaction_name: 'Action_Transaction'
+ threshold: '10'
   group:
     - group_name: "TestGroup2105_01"    
       vusers: '1'  
@@ -6,8 +9,4 @@
   scheduler:
      rampup: '45'
      duration: '10'
-  sla:
-     percentile: '90'
-     transaction_name: 'Action_Transaction'
-     threshold: '10'
 ##################################################
