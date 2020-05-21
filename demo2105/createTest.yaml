@@ -1,6 +1,4 @@
 ##################################################
- transaction_name: 'Action_Transaction'
- threshold: '10'
   group:
     - group_name: "TestGroup2105_01"    
       vusers: '1'  
