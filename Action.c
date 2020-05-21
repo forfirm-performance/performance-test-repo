@@ -6,7 +6,7 @@ Action()
 	web_add_auto_header("DNT",   
 		"1");
 
-	web_add_auto_header("Upgrade-Insecure-Requests", 
+	web_add_auto_header("Upgrade-Insecure-Requests",  
 		"1");
 
 	web_url("www.giulioscuro.it", 
