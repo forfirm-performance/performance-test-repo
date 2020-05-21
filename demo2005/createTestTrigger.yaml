@@ -1,6 +1,6 @@
 ##################################################
   group:
-    - group_name: "TestGroup1905"  
+    - group_name: "TestGroup1905"    
       vusers: '1'
       script_path: "demo2005/test_http_request_wordpress_1"
   scheduler:
