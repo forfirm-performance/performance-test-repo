@@ -6,8 +6,4 @@
   scheduler:
      rampup: '45'
      duration: '10'
-  sla:
-     percentile: '90'
-     transaction_name: 'Action_Transaction'
-     threshold: '10'
 ##################################################
