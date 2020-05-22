@@ -2,7 +2,7 @@
   group:
     - group_name: "group_sla_failure"
       vusers: '1'
-      script_path: "demo\\WebHttpHtml1"
+      script_path: "/demosla/WebHttpHtml1"
   scheduler:
      rampup: '45'
      duration: '3'
