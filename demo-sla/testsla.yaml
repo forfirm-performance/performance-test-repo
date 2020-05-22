@@ -1,0 +1,9 @@
+##################################################
+  group:
+    - group_name: "TestGroup"
+      vusers: '1'
+      script_path: "scripts/WebHttpHtml1"
+  scheduler:
+     rampup: '45'
+     duration: '300'
+##################################################

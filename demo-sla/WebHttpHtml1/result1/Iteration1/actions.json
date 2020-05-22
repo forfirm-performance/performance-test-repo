@@ -1,0 +1,14 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.forfirm.com",
+                "infFile": "t1.inf",
+                "time": 1589880237757
+            }
+        ],
+        "transactions": []
+    }
+]
