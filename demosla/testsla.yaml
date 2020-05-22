@@ -1,9 +1,9 @@
 ##################################################
   group:
-    - group_name: "TestGroup"
+    - group_name: "group_sla_failure"
       vusers: '1'
-      script_path: "scripts/WebHttpHtml1"
+      script_path: "demo-sla\\WebHttpHtml1"
   scheduler:
      rampup: '45'
-     duration: '300'
+     duration: '3'
 ##################################################
