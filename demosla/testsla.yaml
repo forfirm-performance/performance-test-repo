@@ -1,9 +1,0 @@
-##################################################
-  group:
-    - group_name: "gruppo"
-      vusers: '1'
-      script_path: "scripts/WebHttpHtml1"
-  scheduler:
-     rampup: '45'
-     duration: '3'
-##################################################
