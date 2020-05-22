@@ -2,7 +2,7 @@
   group:
     - group_name: "TestGroup1905"    
       vusers: '1'
-      script_path: "scripts/test_http_request_wordpress_1"
+      script_path: "scripts/test_http_request_wordpress_1" 
   scheduler:
      rampup: '45'
      duration: '20'
