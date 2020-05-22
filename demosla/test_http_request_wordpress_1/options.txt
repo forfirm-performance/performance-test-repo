@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\giuli\Documents\VuGen\Scripts\test_http_request_wordpress_1
+-IC:\Program Files (x86)\Micro Focus\Virtual User Generator\include
+-ec:\users\giuli\documents\vugen\scripts\test_http_request_wordpress_1\\logfile.log
+c:\users\giuli\documents\vugen\scripts\test_http_request_wordpress_1\\combined_test_http_request_wordpress_1.c
+c:\users\giuli\documents\vugen\scripts\test_http_request_wordpress_1\\pre_cci.c
