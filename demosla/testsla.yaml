@@ -1,6 +1,6 @@
 ##################################################
   group:
-    - group_name: "group_sla_failure"
+    - group_name: "gruppo"
       vusers: '1'
       script_path: "scripts/WebHttpHtml1"
   scheduler:
