@@ -1,9 +1,0 @@
-##################################################
-  group:
-    - group_name: "TestGroup2005_10"  
-      vusers: '1'
-      script_path: "demo2005/test_http_request_wordpress_1"
-  scheduler:
-     rampup: '45'
-     duration: '10'
-##################################################
