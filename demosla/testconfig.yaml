@@ -1,9 +1,16 @@
 ##################################################
   group:
-    - group_name: "TestGroup2012"         
+    - group_name: "group_sla_test"
       vusers: '1'
-      script_path: "demosla/test_http_request_wordpress_1" 
+      script_path: "demosla/WebHttpHtml1"
   scheduler:
-     rampup: '45'
-     duration: '20'
+     duration: '10'
+  sla:
+    transaction_res_time_percentile:
+      percentile: '95'
+      transaction:
+        - name: "Action_Transaction"
+          threshold: '10'
+        - name: "1_transaction"
+          threshold: '12'
 ##################################################
