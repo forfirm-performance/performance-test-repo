@@ -1,6 +1,6 @@
 ##################################################
   group:
-    - group_name: "TestSLAFailed"
+    - group_name: "TestSLAFailed_01"
       vusers: '1'
       script_path: "scripts/TestProtocolloHTTP"
   scheduler:
