@@ -2,7 +2,7 @@
   group:
     - group_name: "TestSLAFailed"
       vusers: '1'
-      script_path: "scripts/WebHttpHtml1"
+      script_path: "scripts/TestProtocolloHTTP"
   scheduler:
      duration: '60'
   sla:

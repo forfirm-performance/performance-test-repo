@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Date: Mon, 25 May 2020 11:43:47 GMT
+Content-Type: image/png
+Content-Length: 5743
+Connection: keep-alive
+CF-Ray: 598f00322e3bcc62-ZRH
+Accept-Ranges: bytes
+Cache-Control: s-maxage=1814400, max-age=1209600, stale-while-revalidate=900
+ETag: "72b021c353c68d96475cf73457eefb56"
+Last-Modified: Fri, 01 May 2020 18:08:17 GMT
+Vary: Accept, Accept-Encoding
+Via: 1.1 eaaa1e97697a6ab196c5224bbc70d9c8.cloudfront.net (CloudFront)
+CF-Cache-Status: HIT
+Cf-Bgj: imgq:85,h2pri,csam-hash
+Cf-Polished: origSize=9895
+Edge-Cache-Tag: F-28995400588,P-7522739,FLS-ALL
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+X-Amz-Cf-Id: YRWmRHF_J_Hq6YM2CmtiAeN4ZI14iijAHq79jAlaEmbtiGM8h84kYA==
+X-Amz-Cf-Pop: MXP64-C2
+x-amz-id-2: +yXCinxnpslbjoo0wG97RWEZ+hozPEAVMtN9HsVtLLBI1WhMoG2ncl32FkxP2gowKoyy/4/RZ+M=
+x-amz-meta-cache-tag: F-28995400588,P-7522739,FLS-ALL
+x-amz-request-id: 9FD4427C52A58262
+x-amz-version-id: Ob6PP03WVV.GJWk29G7MDLtondI1G3Hf
+X-Cache: Miss from cloudfront
+X-HS-CF-Lambda: us-east-1.setCacheTagHeaders 55
+Set-Cookie: __cfruid=a581f4908452608347f70b4247858f4a717a785c-1590407027; path=/; domain=.www.forfirm.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+cf-request-id: 02ed3e735b0000cc620fa1c200000001
+
