@@ -10,7 +10,7 @@
       percentile: '10' 
       transaction:
         - name: "Action_Transaction"
-          threshold: '1'
+          threshold: '100'
         - name: "1_transaction"
           threshold: '11'
 ##################################################
