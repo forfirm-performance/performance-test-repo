@@ -1,0 +1,16 @@
+##################################################
+  group:
+    - group_name: "group_sla_test"
+      vusers: '1'
+      script_path: "demosla/WebHttpHtml1"
+  scheduler:
+     duration: '10'
+  sla:
+    transaction_res_time_percentile:
+      percentile: '95'
+      transaction:
+        - name: "Action_Transaction"
+          threshold: '10'
+        - name: "1_transaction"
+          threshold: '11'
+##################################################

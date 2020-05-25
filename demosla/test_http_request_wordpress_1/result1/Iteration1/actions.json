@@ -1,0 +1,20 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.giulioscuro.it",
+                "infFile": "t1.inf",
+                "time": 1589551263739
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Link: Aprile 2020",
+                "infFile": "t2.inf",
+                "time": 1589551264554
+            }
+        ],
+        "transactions": []
+    }
+]
