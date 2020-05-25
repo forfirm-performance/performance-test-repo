@@ -4,13 +4,13 @@
       vusers: '1'
       script_path: "scripts/TestProtocolloHTTP"
   scheduler:
-     duration: '20'
+     duration: '10'
   sla:
     transaction_res_time_percentile:
       percentile: '10'     
       transaction:
         - name: "Action_Transaction" 
-          threshold: '50'
+          threshold: '70'
         - name: "1_transaction"
-          threshold: '50'
+          threshold: '70'
 ##################################################
