@@ -1,16 +1,16 @@
 ##################################################
   group:
-    - group_name: "TestSLAPassed"
+    - group_name: "TestSLAThatIsPassed"
       vusers: '1'
       script_path: "scripts/TestProtocolloHTTP"
   scheduler:
      duration: '20'
   sla:
     transaction_res_time_percentile:
-      percentile: '10'     
+      percentile: '5'     
       transaction:
         - name: "Action_Transaction"
-          threshold: '50'
+          threshold: '60'
         - name: "1_transaction"
-          threshold: '50'
+          threshold: '60'
 ##################################################
