@@ -1,10 +1,10 @@
 ##################################################
   group:
-    - group_name: "TestSLAFailed_01"
+    - group_name: "TestSLAFailed"
       vusers: '1'
       script_path: "demosla/WebHttpHtml1"
   scheduler:
-     duration: '10'
+     duration: '60'
   sla:
     transaction_res_time_percentile:
       percentile: '99'     
