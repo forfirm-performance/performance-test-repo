@@ -12,5 +12,5 @@
         - name: "Action_Transaction"
           threshold: '1'
         - name: "1_transaction"
-          threshold: '11'
+          threshold: '1'
 ##################################################
