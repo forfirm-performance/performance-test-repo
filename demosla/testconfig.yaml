@@ -1,16 +1,16 @@
 ##################################################
   group:
-    - group_name: "TestSLAPassed"
+    - group_name: "TestSLAFailed"
       vusers: '1'
       script_path: "demosla/WebHttpHtml1"
   scheduler:
      duration: '10'
   sla:
     transaction_res_time_percentile:
-      percentile: '10' 
+      percentile: '95' 
       transaction:
         - name: "Action_Transaction"
-          threshold: '100'
+          threshold: '1'
         - name: "1_transaction"
           threshold: '11'
 ##################################################
