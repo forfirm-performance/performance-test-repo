@@ -7,7 +7,7 @@
      duration: '20'
   sla:
     transaction_res_time_percentile:
-      percentile: '95'     
+      percentile: '96'     
       transaction:
         - name: "Action_Transaction" 
           threshold: '1'
