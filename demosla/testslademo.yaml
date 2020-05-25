@@ -1,0 +1,16 @@
+##################################################
+  group:
+    - group_name: "TestSLAFailed_01"
+      vusers: '1'
+      script_path: "scripts/TestProtocolloHTTP"
+  scheduler:
+     duration: '20'
+  sla:
+    transaction_res_time_percentile:
+      percentile: '95'     
+      transaction:
+        - name: "Action_Transaction"
+          threshold: '1'
+        - name: "1_transaction"
+          threshold: '1'
+##################################################
