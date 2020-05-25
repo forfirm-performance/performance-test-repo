@@ -4,7 +4,7 @@
       vusers: '1'
       script_path: "scripts/TestProtocolloHTTP"
   scheduler:
-     duration: '60'
+     duration: '20'
   sla:
     transaction_res_time_percentile:
       percentile: '95'     
