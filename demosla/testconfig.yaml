@@ -1,6 +1,6 @@
 ##################################################
   group:
-    - group_name: "TestSLAPassed"
+    - group_name: "TestSLAThatIsPassed"
       vusers: '1'
       script_path: "scripts/TestProtocolloHTTP"
   scheduler:
