@@ -28,7 +28,7 @@ Action()
 		"Snapshot=t8.inf", 
 		LAST);
 	
-	sleep(2000);
+	lr_think_time(20);
 	
 	lr_end_transaction("1_transaction", LR_AUTO);	
 
