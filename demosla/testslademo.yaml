@@ -7,10 +7,10 @@
      duration: '10'
   sla:
     transaction_res_time_percentile:
-      percentile: '10'     
+      percentile: '95'     
       transaction:
         - name: "Action_Transaction" 
-          threshold: '60'
+          threshold: '1'
         - name: "1_transaction"
-          threshold: '60'
+          threshold: '1'
 ##################################################
